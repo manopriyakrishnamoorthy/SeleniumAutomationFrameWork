@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteTestNg]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestTestNg(failed)">
+    <classes>
+      <class name="com.SeleniumAutomationFrameWork.CreateOpportunity">
+        <methods>
+          <include name="opportunityclick"/>
+          <include name="TestOpportunityPipelineReport"/>
+          <include name="TestQuarterlySummaryReport"/>
+          <include name="opportunitiesDropDown"/>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="CreateANewOpty"/>
+          <include name="setUpBeforeMethod"/>
+          <include name="TestStuckOpportunitiesReport"/>
+        </methods>
+      </class> <!-- com.SeleniumAutomationFrameWork.CreateOpportunity -->
+      <class name="com.SeleniumAutomationFrameWork.SalesforceLogin">
+        <methods>
+          <include name="LoginErrorMessage1"/>
+          <include name="ForgotPassword4B"/>
+          <include name="ForgotPassword4A"/>
+          <include name="LoginToSalesForce2"/>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="CheckRemeberMe3"/>
+          <include name="setUpBeforeMethod"/>
+        </methods>
+      </class> <!-- com.SeleniumAutomationFrameWork.SalesforceLogin -->
+      <class name="com.SeleniumAutomationFrameWork.contacts">
+        <methods>
+          <include name="CreateNewContact"/>
+          <include name="ViewAContactInTheContactPage"/>
+          <include name="CheckRecentlyCreatedContactInTheContactPage"/>
+          <include name="ChecktheSaveandNewButtonWorksinNewContactPage"/>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="CheckTheErrorMessage"/>
+          <include name="CreateNewViewintheContactPage"/>
+          <include name="ChecktheCancelButtonWorksfineinCreateNewView"/>
+          <include name="setUpBeforeMethod"/>
+        </methods>
+      </class> <!-- com.SeleniumAutomationFrameWork.contacts -->
+      <class name="com.SeleniumAutomationFrameWork.createAccount">
+        <methods>
+          <include name="AddAccounttoTab"/>
+          <include name="CreateNewView"/>
+          <include name="EditView"/>
+          <include name="CreateAnAccount"/>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="CreateAccountReport"/>
+          <include name="MergeAccounts"/>
+          <include name="setUpBeforeMethod"/>
+        </methods>
+      </class> <!-- com.SeleniumAutomationFrameWork.createAccount -->
+      <class name="com.SeleniumAutomationFrameWork.SalesforceLeads">
+        <methods>
+          <include name="TC21LeadsSelectView"/>
+          <include name="TC20LeadsTab"/>
+          <include name="LeadsTC23"/>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="LeadsTC24"/>
+          <include name="TC22defaultView"/>
+          <include name="setUpBeforeMethod"/>
+        </methods>
+      </class> <!-- com.SeleniumAutomationFrameWork.SalesforceLeads -->
+      <class name="com.SeleniumAutomationFrameWork.UserMenuDropDown">
+        <methods>
+          <include name="SelectMyProfileOption"/>
+          <include name="SelectDevelopersConsoleOption"/>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="SelectLogoutOption"/>
+          <include name="SelectUserMenuForUsernamedropDown"/>
+          <include name="setUpBeforeMethod"/>
+        </methods>
+      </class> <!-- com.SeleniumAutomationFrameWork.UserMenuDropDown -->
+    </classes>
+  </test> <!-- TestTestNg(failed) -->
+</suite> <!-- Failed suite [SuiteTestNg] -->

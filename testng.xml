@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteTestNg">
+  <test thread-count="5" name="TestTestNg">
+    <classes>
+      <class name="com.SeleniumAutomationFrameWork.createAccount"/>
+      <class name="com.SeleniumAutomationFrameWork.CreateOpportunity"/>
+      <class name="com.SeleniumAutomationFrameWork.contacts"/>
+      <class name="com.SeleniumAutomationFrameWork.SalesforceLeads"/>
+      <class name="com.SeleniumAutomationFrameWork.UserMenuDropDown"/>
+      <class name="com.SeleniumAutomationFrameWork.SalesforceLogin"/>
+    </classes>
+  </test> <!-- TestTestNg -->
+</suite> <!-- SuiteTestNg -->
